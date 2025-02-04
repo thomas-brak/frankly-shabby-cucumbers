@@ -1,0 +1,7 @@
+[user]
+  name = "thomas-brak"
+  email = "thomas.a.faupel@gmail.com" # the email you use for GitHub
+[pull]
+  rebase = false # deals with merging vs rebasing on pull
+[core]
+  autocrlf = true # deals with Linux vs Windows file endings
