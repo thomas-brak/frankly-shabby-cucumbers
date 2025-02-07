@@ -10,65 +10,45 @@
   <meta name="msvalidate.01" content="4DF57A4E647E35DC45C9802DB911A7FA" />
   <title>Frankly Shabby Cucumbers</title>
   <link rel="icon" type="image/x-icon" href="cucumberico.png">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* CSS Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
-      background-color: #f5f5f5; /* light grey background */
-      color: #333; /* dark grey text */
-      font-family: 'Roboto', sans-serif; /* modern font */
-      line-height: 1.6;
-      padding: 20px;
-    }
-    h1, h2 {
+      background-color: #d0f0c0; /* cucumber light green */
       color: #006400; /* shabby-cucumber green */
-      margin-bottom: 10px;
+      font-family: Arial, sans-serif; /* frankly serif-like */
     }
-    p {
-      margin-bottom: 20px;
+    .album {
+      position: relative;
+      display: inline-block;
+      margin: 20px;
+    }
+    .album img {
+      width: 150px;
+      height: 150px;
+      border: 2px solid black;
+    }
+    .album-title {
+      position: absolute;
+      top: 10px;
+      justify-content: center;
+      color: rgb(0, 44, 18);
+      padding: 5px;
+      font-size: 24px; /* Adjust the size as needed */
+      text-align: center;
     }
     .album-list {
       display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-bottom: 40px;
+      align-items: flex-start;
+      margin-bottom: 20px;
     }
-    .album {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      transition: transform 0.3s;
+    .album-list ul {
+      margin-left: 20px;
     }
-    .album:hover {
-      transform: scale(1.05);
-    }
-    .album img {
-      width: 100%;
-      height: auto;
+    .symbol-image {
+      width: 50%; /* Resize to half of its current size */
+      border: 2px solid black; /* Add a border to frame the image */
+      padding: 10px; /* Add padding inside the border */
       display: block;
-    }
-    .album p {
-      padding: 10px;
-      font-weight: bold;
-      text-align: center;
-    }
-    .album ul {
-      list-style: none;
-      padding: 10px;
-    }
-    .album ul li {
-      padding: 5px 0;
-      border-bottom: 1px solid #ddd;
-    }
-    .album ul li:last-child {
-      border-bottom: none;
+      margin: 0 auto; /* Center the image */
     }
   </style>
 </head>
@@ -86,6 +66,8 @@
   <div class="album-list">
     <div class="album">
       <img src="shabbylove.png" alt="shabby love cover art">
+    </div>
+    <div>
       <p><strong>Shabby Love</strong> (2011)</p>
       <ul>
         <li>Track 1: Shabby Love</li>
@@ -95,8 +77,12 @@
         <li>Track 5: Cucumber Blues</li>
       </ul>
     </div>
+  </div>
+  <div class="album-list">
     <div class="album">
       <img src="cucumberdreams.png" alt="cucumber dreams cover art">
+    </div>
+    <div>
       <p><strong>Cucumber Dreams</strong> (2013)</p>
       <ul>
         <li>Track 1: Dreamy Cucumber</li>
@@ -106,8 +92,12 @@
         <li>Track 5: Shabby Dreams</li>
       </ul>
     </div>
+  </div>
+  <div class="album-list">
     <div class="album">
       <img src="franklyshabby.png" alt="frankly shabby cover art">
+    </div>
+    <div>
       <p><strong>Frankly Shabby</strong> (2016)</p>
       <ul>
         <li>Track 1: Frankly Shabby</li>
@@ -117,8 +107,12 @@
         <li>Track 5: Cucumber Serenade</li>
       </ul>
     </div>
+  </div>
+  <div class="album-list">
     <div class="album">
       <img src="greenmelodies.png" alt="green melodies cover art">
+    </div>
+    <div>
       <p><strong>Green Melodies</strong> (2019)</p>
       <ul>
         <li>Track 1: Green Melodies</li>
