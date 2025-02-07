@@ -31,10 +31,8 @@
       justify-content: center;
       color: rgb(0, 44, 18);
       padding: 5px;
-      font-size: 14px;
-      font-weight: bold;
-      text-align: center;
       font-size: 24px; /* Adjust the size as needed */
+      text-align: center;
     }
     .album-list {
       display: flex;
@@ -43,6 +41,13 @@
     }
     .album-list ul {
       margin-left: 20px;
+    }
+    .symbol-image {
+      width: 50%; /* Resize to half of its current size */
+      border: 2px solid black; /* Add a border to frame the image */
+      padding: 10px; /* Add padding inside the border */
+      display: block;
+      margin: 0 auto; /* Center the image */
     }
   </style>
 </head>
@@ -54,13 +59,12 @@
   <p>The band was formed in 2010 by a group of friends who shared a passion for cucumbers and music. Over the years, they have released several albums and performed at numerous venues, gaining a dedicated following of fans who appreciate their unique sound and quirky themes.</p>
   
   <h2>Shabby Band Description</h2>
-  <p>Frankly Shabby Cucumbers' music is characterized by its eclectic mix of genres, including rock, folk, and indie. Their lyrics often explore themes of love, loss, and the simple joys of life, all with a touch of humor and a nod to their favorite vegetable, the cucumber.</p>
+  <p>Frankly Shabby Cucumbers' music is characterized by its eclectic mix of genres, including rock, folk, and indie. Their lyrics often explore themes of love, loss, and the simple joys of life, all with a touch of humour and a nod to their favourite vegetable, the cucumber.</p>
   
   <h2>Frankly Cucumber Discography</h2>
   <div class="album-list">
     <div class="album">
       <img src="shabbylove.png" alt="shabby love cover art">
-      <div class="album-title">Shabby Love</div>
     </div>
     <div>
       <p><strong>Shabby Love</strong> (2011)</p>
@@ -76,7 +80,6 @@
   <div class="album-list">
     <div class="album">
       <img src="cucumberdreams.png" alt="cucumber dreams cover art">
-      <div class="album-title">Cucumber Dreams</div>
     </div>
     <div>
       <p><strong>Cucumber Dreams</strong> (2013)</p>
@@ -92,7 +95,6 @@
   <div class="album-list">
     <div class="album">
       <img src="franklyshabby.png" alt="frankly shabby cover art">
-      <div class="album-title">Frankly Shabby</div>
     </div>
     <div>
       <p><strong>Frankly Shabby</strong> (2016)</p>
@@ -108,7 +110,6 @@
   <div class="album-list">
     <div class="album">
       <img src="greenmelodies.png" alt="green melodies cover art">
-      <div class="album-title">Green Melodies</div>
     </div>
     <div>
       <p><strong>Green Melodies</strong> (2019)</p>
@@ -123,6 +124,6 @@
   </div>
 
   <p>A picture of the group's most famous symbol</p>
-  <img src="cucumber.png" alt="cucumber">
+  <img src="cucumber.png" alt="cucumber" class="symbol-image">
 </body>
 </html>
